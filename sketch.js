@@ -39,17 +39,15 @@ function draw() {
 
   Engine.update(engine);
   
-  
-  mango1.display();
-  mango2.display();
-  mango3.display();
-
   ground.display();
   tree.display();
   boy.display();
   stone.display();
   launcher.display();
-
+	
+  mango1.display();
+  mango2.display();
+  mango3.display();
 
  col(stone,mango1);
  col(stone,mango2);
